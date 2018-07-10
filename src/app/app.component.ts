@@ -10,16 +10,6 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
-
-@NgModule({
-  imports: [
-    BrowserModule,
-  BrowserAnimationsModule,
-NgxChartsModule ],
-declarations: [AppComponent],
-bootstrap: [AppComponent]
-
-})
 export class AppComponent {
   title = 'Chart app';
 
